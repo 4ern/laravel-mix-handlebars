@@ -21,7 +21,7 @@ in your `webpack.mix.js`:
 const mix = require('laravel-mix');
 require('laravel-mix-handlebars');
 
-/// mix.handlebars('your source folder', 'your dist or public folder')
+/// mix.handlebars('your source folder', 'your dist or public folder', {your vars})
 mix.handlebars('src/', 'dist/');
 ```
 
