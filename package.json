@@ -1,6 +1,6 @@
 {
   "name": "laravel-mix-handlebars",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Laravel Mix support for Handlebars.js and Handlebars Layouts",
   "main": "index.js",
   "scripts": {
