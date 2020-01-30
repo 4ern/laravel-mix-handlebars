@@ -1,0 +1,31 @@
+{
+  "name": "laravel-mix-handlebars",
+  "version": "1.0.0",
+  "description": "Laravel Mix support for Handlebars.js and Handlebars Layouts",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/4ern/laravel-mix-handlebars.git"
+  },
+  "keywords": [
+    "Laravel-Mix",
+    "Handlebars",
+    "Handlebars",
+    "Layout",
+    "Webpack"
+  ],
+  "author": "4ern",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/4ern/laravel-mix-handlebars/issues"
+  },
+  "homepage": "https://github.com/4ern/laravel-mix-handlebars#readme",
+  "devDependencies": {
+    "handlebars": "^4.7.2",
+    "handlebars-layouts": "^3.1.4",
+    "laravel-mix": "^5.0.1"
+  }
+}
