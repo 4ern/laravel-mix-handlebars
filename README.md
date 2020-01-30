@@ -10,7 +10,7 @@ $ npm install --save-dev laravel-mix-handlebars
 or
 
 ```
-$ yarn add -dev laravel-mix-handlebars
+$ yarn add --dev laravel-mix-handlebars
 ```
 
 ## Usage:
@@ -25,7 +25,6 @@ require('laravel-mix-handlebars');
 mix.handlebars('src/', 'dist/');
 ```
 
-That’s it. You can use handlebars as usual.
-
 ## Note:
-Partials must begin with an underscore so that they are recognized as partials. `_myPartial.hbs`.
+- The file extension must be `.hbs`.
+- Partials must begin with an underscore so that they are recognized as partials. `_myPartial.hbs`.
