@@ -28,3 +28,24 @@ mix.handlebars('src/', 'dist/');
 ## Note:
 - The file extension must be `.hbs`.
 - Partials must begin with an underscore so that they are recognized as partials. `_myPartial.hbs`.
+
+## Workaround for BrowserSync:
+
+```js
+// webpack.mix.js
+const mix = require('laravel-mix');
+const BrowserSyncPlugin = require('browser-sync-webpack-plugin');
+
+mix.webpackConfig(() => {
+    return {
+        plugins: [
+            new BrowserSyncPlugin({
+                host: 'localhost',
+                port: 3003,
+                watch: true,
+                server: { baseDir: ['dist'] }
+            })
+        ]
+    };
+});
+```
