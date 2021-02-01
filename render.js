@@ -26,8 +26,8 @@ class HandlebarTask extends Task {
         this.variables = params.variables;
 
         const cwd = process.cwd();
-        this.Handlebars = require('Handlebars');
-        this.layouts = require('Handlebars-layouts');
+        this.Handlebars = require('handlebars');
+        this.layouts = require('handlebars-layouts');
         this.glob = require('glob');
 
         process.chdir(this.src)
