@@ -1,6 +1,6 @@
 {
   "name": "laravel-mix-handlebars",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Laravel Mix support for Handlebars.js and Handlebars Layouts",
   "main": "index.js",
   "scripts": {
@@ -23,8 +23,8 @@
   },
   "homepage": "https://github.com/4ern/laravel-mix-handlebars#readme",
   "devDependencies": {
-    "handlebars": "^4.7.2",
+    "handlebars": "^4.7.7",
     "handlebars-layouts": "^3.1.4",
-    "laravel-mix": "^5.0.1"
+    "laravel-mix": "^6.0.0"
   }
 }
