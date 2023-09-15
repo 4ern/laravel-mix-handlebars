@@ -25,6 +25,17 @@ require('laravel-mix-handlebars');
 mix.handlebars('src/', 'dist/');
 ```
 
+Passing variable
+```js
+mix.handlebars('src/', 'dist/', {
+    "TITLE" : "Example Title"
+});
+```
+in `.hbs`
+```hbs
+{{TITLE}}
+```
+
 ## Note:
 - The file extension must be `.hbs`.
 - Partials must begin with an underscore so that they are recognized as partials. `_myPartial.hbs`.
